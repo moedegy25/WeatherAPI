@@ -34,7 +34,7 @@ async function GetTimezone (CityName) {
     try  {
    
     
-        var respone = await fetch(`http://api.weatherapi.com/v1/timezone.json?key=192cae221c2840bc959134852240612&q=${CityName}`);
+        var respone = await fetch(`https://api.weatherapi.com/v1/timezone.json?key=192cae221c2840bc959134852240612&q=${CityName}`);
         var  data_3  =await respone.json();
         var localtime =  data_3.location.localtime;
 
@@ -63,8 +63,8 @@ async function Getweather (CityName="cairo") {
  var afterTomorrow = GetdayAfterTomorrow_DATE(cureentDate) 
 
         var respone = await Promise.all([
-            fetch(`http://api.weatherapi.com/v1/forecast.json?key=192cae221c2840bc959134852240612&q=${CityName}&dt=${tomorrow.year}-${tomorrow.month}-${tomorrow.day}`),
-             fetch(`http://api.weatherapi.com/v1/forecast.json?key=192cae221c2840bc959134852240612&q=${CityName}&dt=${afterTomorrow.year}-${afterTomorrow.month}-${afterTomorrow.day}`)
+            fetch(`https://api.weatherapi.com/v1/forecast.json?key=192cae221c2840bc959134852240612&q=${CityName}&dt=${tomorrow.year}-${tomorrow.month}-${tomorrow.day}`),
+             fetch(`https://api.weatherapi.com/v1/forecast.json?key=192cae221c2840bc959134852240612&q=${CityName}&dt=${afterTomorrow.year}-${afterTomorrow.month}-${afterTomorrow.day}`)
              
             ]) 
           
