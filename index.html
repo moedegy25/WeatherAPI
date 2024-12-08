@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather    </title>
+    <link rel="icon" href="logo@2x.ico">
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    
+
+       <nav class="navbar  navbar-expand-lg  w-100   z-3 pt-3 pb-2" id="navbar-example2">
+          <div class="container">
+            <a class="navbar-brand  text-white text-end" href="#"> <img src="images/logo@2x.png" class="photo"> Weather   </a>
+            <button class="navbar-toggler   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 column-gap-2">
+                <li class="nav-item ">
+                  <a class="  nav-link active text-uppercase  navdecoration  text-white" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item  ">
+          
+                  <a class="nav-link text-uppercase  navdecoration   text-white " href="#about">
+                    NEWS
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                  <a class="nav-link text-uppercase  navdecoration  text-white" href="#services">live cameras
+                  </a>
+                </li>
+                <li class="nav-item  ">
+                  <a class="nav-link text-uppercase  navdecoration  text-white" href="#Portfolio">Photo
+                  </a>
+                </li>
+
+                
+                <li class="nav-item ">
+                  <a class="nav-link text-uppercase navdecoration  text-white"  href="#contact">contact</a>
+                </li>
+               
+              </ul>
+             
+            </div>
+          </div>
+        </nav>
+
+<section class="weathersection">  
+
+<div class="container">
+<div id="weatherbox" class="row width-89 m-auto gx-0 invisible">
+
+    <input type="text" id="mealInput" class="w-100 d-block mx-auto m-5  rounded-pill py-2 px-3 text-white" placeholder="find your Location">
+
+    <div class=" col-lg-4  basicColor1 ">
+        <header class=" text-white basicColor3 d-flex justify-content-between p-2"> <span id="today">Friday</span>  <span id="TodayDate">6/December</span>  </header>
+       <div id="todayWeather" class="p-4"> 
+        <p id="City" class="text-white-50 fs-5">Cairo</p>
+        <p id="CurrentTemp">21.1°C</p>
+        <div class="weatherImg"><img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" width="90px" /></div>
+        <p  class="weatherconidtion basicTextColor1 fs-6">Clear</p>
+            <div class=" d-flex column-gap-3 text-white-50">
+            <span><img src="images/icon-umberella.png" alt=""> 20%</span>
+            <span><img src="images/icon-wind.png" alt=""> 18km/h</span>
+            <span><img src="images/icon-compass.png" alt=""> East</span>
+        </div>
+
+
+       </div>                 
+        
+
+    </div>
+
+    <div class=" col-lg-4  basicColor2">
+        <header class="text-white basicColor4 d-flex justify-content-center p-2"> <span id="tomorrow">Friday</span>    </header>
+        <div id="tomorrowWeather" class=" height-84 d-flex justify-content-center align-items-center  flex-column row-gap-3"> 
+            <div class="weatherImg"><img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" width="50px" /></div>
+            <div>
+                <p class="MaxTemp m-0 fs-4 text-white">21.1°C</p>
+                <p class="MinTemp m-0 fs-6 text-center text-white-50">21.1°C</p>
+            </div>
+            <p  class="weatherconidtion basicTextColor1 fs-6">Clear</p>
+
+
+        </div>                 
+
+
+    </div>
+
+
+
+    <div class="col-lg-4  basicColor1">
+        <header class="text-white basicColor3 d-flex justify-content-center p-2"> <span id="TomorrowLater">Friday</span>    </header>
+
+        <div id="TomorrowLaterWeather" class=" height-84 d-flex justify-content-center align-items-center  flex-column row-gap-3"> 
+            <div class="weatherImg"><img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" width="50px" /></div>
+            <div>
+            <p class="MaxTemp m-0 fs-4 text-white">21.1°C</p>
+            <p class="MinTemp m-0 fs-6 text-center text-white-50">21.1°C</p>
+        </div>
+        <p  class="weatherconidtion basicTextColor1 fs-6 ">Clear</p>
+
+        </div>                 
+
+    </div>
+
+</div>
+
+</div>
+</section>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>  </script>
+
+ <script src="js/bootstrap.bundle.min.js"> </script>
+<script src="js/index.js"> </script>
+
+</body>
+</html> 
+

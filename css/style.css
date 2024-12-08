@@ -1,0 +1,125 @@
+
+@font-face{
+
+   font-family: " mohamed Khaled ";   /*any name you want , note If the word consists of two syllables, it is placed in quotation marks*/
+   src: url(../GoogleFonts/Bangers/Bangers-Regular.ttf);
+
+}
+
+@font-face{
+
+    font-family: Poppins ;   /*any name you want*/
+    src: url(../GoogleFonts/Poppins/);
+ 
+ }
+
+ @font-face{
+
+   font-family: Pacifico ;   /*any name you want*/
+   src: url(../GoogleFonts/Pacifico/Pacifico-Regular.ttf);
+
+}
+
+@font-face{
+
+   font-family: PTSansCaption ;   /*any name you want*/
+   src: url(../GoogleFonts/PT_Sans_Caption/PTSansCaption-Regular.ttf);
+
+}
+
+@font-face{
+
+   font-family: Roboto ;   /*any name you want*/
+   src: url(../GoogleFonts/Roboto/Roboto-Regular.ttf);
+
+}
+
+
+.testHieight{
+
+
+   height: 420px;
+}
+
+
+.width-89{
+
+width: 89%;
+
+}
+
+
+.basicColor1{
+
+background-color: #323544;
+
+}
+
+.basicColor2{
+
+   background-color: #262936;
+
+   
+}
+.basicColor3{
+
+   background-color: #2E303D;
+
+   
+}
+.basicColor4{
+
+   background-color: #232530;
+
+   
+}
+
+
+
+
+#CurrentTemp{
+   font-family: Roboto ;  
+   font-size: 90px;
+   font-weight: 700;
+   color: white;
+ 
+}
+.basicTextColor1{
+color: #009AD8;
+
+
+}
+.height-84{
+
+   height: 84%;
+}
+
+
+
+.weathersection{
+padding-top: 50px;
+padding-bottom: 100px;
+min-height: 100vh;
+background: 
+url('../images/banner.png') top center , /* الجزء الخاص بالصورة */
+linear-gradient(to bottom, #1E202B, #1E202B); /* الجزء الخاص بالتدرج */
+background-size: 100% 50%; /* كل جزء يأخذ 50% من الارتفاع */
+background-repeat: no-repeat;
+background-position: top, bottom; /* الصورة في الأعلى والتدرج في الأسفل */
+}
+
+#mealInput{
+
+background-color: #1E202B;
+border: none;
+}
+.photo{
+   width: 80px;
+}
+
+nav{
+
+   background-color: #1E202B;
+
+
+}
